@@ -24,5 +24,7 @@ public class Tester {
 
         String format = "House details: \nFloors: %d\nAddress: %s\nResidents: %s";
         System.out.println(String.format(format, house1.getFloorsNumber(), house1.getAddress(), String.join(", ", house1.getResidentsName())));
+
+        checkValue.close();
     }
 }
